@@ -1,39 +1,3 @@
-<style>
-a {
-        position: relative;
-        color: #3498db;
-        text-decoration: none;
-    }
-
-    a::before {
-        content: "";
-        position: absolute;
-        width: 0;
-        height: 2px;
-        bottom: 0;
-        left: 0;
-        background-color: #3498db;
-        transition: width 0.3s ease-in-out;
-    }
-
-    a:hover::before {
-        width: 100%;
-    }
-
-    zw {
-        display: inline-block;
-        font-size: 1.0em;
-        color: #3498db;
-        transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
-        cursor: pointer;
-    }
-
-    zw:hover {
-        transform: scale(1.1);
-        filter: drop-shadow(0 0 8px #3498db);
-    }
-</style>
-
 <p align="left"></p>
 
 ###
