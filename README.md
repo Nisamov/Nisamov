@@ -1,12 +1,13 @@
 <div align="center">
-  <h1>Nisamov Profile</h1>
+  <h1>Welcome to Nisamov's GitHub Profile</h1>
 </div>
 
 ---
 
 <div align="left">
-  <p><a href="#">Nisamov</a> | Network services technician in Linux.</p>
-  <p>Welcome to my GitHub profile! I'm passionate about Linux systems, network services, and web development. With a strong background in Linux administration and web technologies, I strive to contribute to open-source projects and collaborate with like-minded individuals.</p>
+  <p>Hello there! I'm Nisamov, a passionate Network Services Technician with a focus on Linux systems and web development. I enjoy tinkering with technology and exploring new possibilities in the digital world.</p>
+  <p>My journey in the realm of technology has been an exciting one. From delving into the intricacies of Linux server administration to crafting elegant web solutions, I've found my niche in the ever-evolving landscape of IT.</p>
+  <p>Feel free to explore my projects, contributions, and repositories. Let's connect and collaborate to create something amazing!</p>
 </div>
 
 ---
@@ -14,18 +15,13 @@
 <h2 align="left">About Me</h2>
 
 <div align="left">
-  <p>I am a dedicated professional with expertise in:</p>
+  <p>As a dedicated professional, I thrive on challenges and constantly seek to expand my horizons. Here are some key areas where I excel:</p>
   <ul>
-    <li>Linux server administration</li>
-    <li>User and permissions management</li>
-    <li>Security implementation and management</li>
-    <li>Web development with HTML5, CSS3, JavaScript</li>
-    <li>Utilizing technologies such as Apache2, Nginx, Samba</li>
-    <li>Scripting with Bash</li>
-    <li>SSH client management with Putty</li>
-    <li>Version control with Git</li>
+    <li><b>Linux Administration:</b> With hands-on experience in managing Linux servers, I've mastered user and permissions management, security protocols, and system configuration.</li>
+    <li><b>Web Development:</b> My expertise extends to crafting responsive and dynamic web experiences using technologies such as HTML5, CSS3, and JavaScript. I'm also adept at leveraging web servers like Apache2 and Nginx to deliver seamless online experiences.</li>
+    <li><b>Scripting and Automation:</b> I'm proficient in Bash scripting, which allows me to automate routine tasks and streamline operations efficiently.</li>
+    <li><b>Networking:</b> I possess a strong understanding of network fundamentals and protocols, enabling me to troubleshoot and optimize network infrastructures.</li>
   </ul>
-  <p>I am committed to expanding my knowledge and skills in the ever-evolving landscape of technology.</p>
 </div>
 
 ---
@@ -34,24 +30,27 @@
 
 <div align="left">
   <h3>Linux:</h3>
+  <p>My expertise in Linux extends across various domains:</p>
   <ul>
-    <li>User & Groups management</li>
-    <li>Server Services</li>
-    <li>Directory and file management</li>
-    <li>System Configuration management</li>
-    <li>Security management</li>
+    <li>User & Groups management: Ensuring secure access and permissions for users and groups.</li>
+    <li>Server Services: Configuring and managing essential server services for optimal performance.</li>
+    <li>Directory and file management: Organizing and securing data efficiently within the Linux filesystem.</li>
+    <li>System Configuration management: Fine-tuning system settings and parameters to meet specific requirements.</li>
+    <li>Security management: Implementing robust security measures to safeguard against threats and vulnerabilities.</li>
   </ul>
   <h3>Web Structure:</h3>
+  <p>My proficiency in web technologies encompasses:</p>
   <ul>
-    <li>HTML5</li>
-    <li>CSS3</li>
-    <li>Markdown</li>
-    <li>JavaScript</li>
+    <li>HTML5: Crafting semantic and structured web content for enhanced accessibility and usability.</li>
+    <li>CSS3: Styling web elements to create visually appealing and responsive layouts.</li>
+    <li>JavaScript: Adding interactivity and dynamic functionality to web applications and interfaces.</li>
+    <li>Markdown: Writing clean and readable documentation using Markdown syntax.</li>
   </ul>
   <h3>Other:</h3>
+  <p>In addition to Linux and web technologies, I also specialize in:</p>
   <ul>
-    <li>Bash</li>
-    <li>Putty</li>
+    <li>Bash: Writing scripts and automating tasks to streamline workflows and enhance productivity.</li>
+    <li>Putty: Leveraging SSH client management for secure remote access and administration.</li>
   </ul>
 </div>
 
@@ -59,6 +58,7 @@
 
 <div align="center">
   <h2>Skills & Technologies</h2>
+  <p>Here are some of the key technologies and tools I work with:</p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="Linux logo" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" height="30" alt="Ubuntu logo" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" height="30" alt="Debian logo" />
