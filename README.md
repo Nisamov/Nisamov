@@ -1,5 +1,6 @@
+<!--Perfil Github Nisamov - Todos los derechos reservados-->
 <div align="center">
-  <h1>Welcome to Nisamov's GitHub Profile</h1>
+  <h1>Nisamov's GitHub Profile</h1>
 </div>
 
 ---
