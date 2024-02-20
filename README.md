@@ -21,6 +21,7 @@
     <li><b>Web Development:</b> My expertise extends to crafting responsive and dynamic web experiences using technologies such as HTML5, CSS3, and JavaScript. I'm also adept at leveraging web servers like Apache2 and Nginx to deliver seamless online experiences.</li>
     <li><b>Scripting and Automation:</b> I'm proficient in Bash scripting, which allows me to automate routine tasks and streamline operations efficiently.</li>
     <li><b>Networking:</b> I possess a strong understanding of network fundamentals and protocols, enabling me to troubleshoot and optimize network infrastructures.</li>
+    <li><b>Windows Server Management:</b> I have also studied the management and usage of Windows Server, including domain control and management configurations.</li>
   </ul>
 </div>
 
