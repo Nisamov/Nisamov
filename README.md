@@ -6,7 +6,7 @@
 ---
 
 <div align="left">
-  <p>Hello there! I'm Nisamov, a passionate Network Services Technician with a focus on Linux systems and web development. I enjoy tinkering with technology and exploring new possibilities in the digital world.</p>
+  <p>I'm Nisamov, a passionate Network Services Technician with a focus on Linux systems and web development. I enjoy tinkering with technology and exploring new possibilities in the digital world.</p>
   <p>My journey in the realm of technology has been an exciting one. From delving into the intricacies of Linux server administration to crafting elegant web solutions, I've found my niche in the ever-evolving landscape of IT.</p>
   <p>Feel free to explore my projects, contributions, and repositories. Let's connect and collaborate to create something amazing!</p>
 </div>
