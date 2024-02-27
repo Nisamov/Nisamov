@@ -54,6 +54,12 @@
     <li>Bash: Writing scripts and automating tasks to streamline workflows and enhance productivity.</li>
     <li>Putty: Leveraging SSH client management for secure remote access and administration.</li>
   </ul>
+  <h3>Projects:</h3>
+  <p>Featured projects being worked on, review the most relevant projects in its history.:</p>
+  <ul>
+    <li>[LinuxCommands](https://github.com/Theritex/LinuxCommands): LinuxCommands is a repository where all the knowledge acquired by Nisamov is stored, made public, allowing the reader to learn and understand the operation of the commands, as well as their additional options, it complements [LinuxGuide](https://github.com/Theritex/LinuxGuide) in some aspects.</li>
+    <li>[LinuxGuide](https://github.com/Theritex/LinuxGuide): LinuxGuide is a repository created to help in the creation of services, it has constant updates and a high description of the processes, this repository aims to help, serve as a guide or support to all those computer technicians who have doubts about the process of use or installation, it complements [LinuxCommands](https://github.com/Theritex/LinuxCommands) in some aspects.</li>
+  </ul>
 </div>
 
 ---
