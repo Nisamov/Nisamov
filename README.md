@@ -1,66 +1,61 @@
-<!--Perfil Github Nisamov - Todos los derechos reservados-->
+<!--Perfil GitHub Nisamov - Todos los derechos reservados-->
 <div align="center">
   <h1>Nisamov's GitHub Profile</h1>
 </div>
 
 ---
 
-<div align="left">
-  <p>I'm Nisamov, a passionate Network Services Technician with a focus on Linux systems and web development. I enjoy tinkering with technology and exploring new possibilities in the digital world.</p>
-  <p>My journey in the realm of technology has been an exciting one. From delving into the intricacies of Linux server administration to crafting elegant web solutions, I've found my niche in the ever-evolving landscape of IT.</p>
-  <p>Feel free to explore my projects, contributions, and repositories. Let's connect and collaborate to create something amazing!</p>
-</div>
+I'm Nisamov, a passionate Network Services Technician with a focus on Linux systems and web development. I enjoy tinkering with technology and exploring new possibilities in the digital world.
 
----
+My journey in the realm of technology has been an exciting one. From delving into the intricacies of Linux server administration to crafting elegant web solutions, I've found my niche in the ever-evolving landscape of IT.
 
-<h2 align="left">About Me</h2>
+Feel free to explore my projects, contributions, and repositories. Let's connect and collaborate to create something amazing!
 
-<div align="left">
-  <p>As a dedicated professional, I thrive on challenges and constantly seek to expand my horizons. Here are some key areas where I excel:</p>
-  <ul>
-    <li><b>Linux Administration:</b> With hands-on experience in managing Linux servers, I've mastered user and permissions management, security protocols, and system configuration.</li>
-    <li><b>Web Development:</b> My expertise extends to crafting responsive and dynamic web experiences using technologies such as HTML5, CSS3, and JavaScript. I'm also adept at leveraging web servers like Apache2 and Nginx to deliver seamless online experiences.</li>
-    <li><b>Scripting and Automation:</b> I'm proficient in Bash scripting, which allows me to automate routine tasks and streamline operations efficiently.</li>
-    <li><b>Networking:</b> I possess a strong understanding of network fundamentals and protocols, enabling me to troubleshoot and optimize network infrastructures.</li>
-    <li><b>Windows Server Management:</b> I have also studied the management and usage of Windows Server, including domain control and management configurations.</li>
-  </ul>
-</div>
+## About Me
 
----
+As a dedicated professional, I thrive on challenges and constantly seek to expand my horizons. Here are some key areas where I excel:
 
-<h2 align="left">Related Activities</h2>
+- **Linux Administration:** With hands-on experience in managing Linux servers, I've mastered user and permissions management, security protocols, and system configuration.
+- **Web Development:** My expertise extends to crafting responsive and dynamic web experiences using technologies such as HTML5, CSS3, and JavaScript. I'm also adept at leveraging web servers like Apache2 and Nginx to deliver seamless online experiences.
+- **Scripting and Automation:** I'm proficient in Bash scripting, which allows me to automate routine tasks and streamline operations efficiently.
+- **Networking:** I possess a strong understanding of network fundamentals and protocols, enabling me to troubleshoot and optimize network infrastructures.
+- **Windows Server Management:** I have also studied the management and usage of Windows Server, including domain control and management configurations.
 
-<div align="left">
-  <h3>Linux:</h3>
-  <p>My expertise in Linux extends across various domains:</p>
-  <ul>
-    <li>User & Groups management: Ensuring secure access and permissions for users and groups.</li>
-    <li>Server Services: Configuring and managing essential server services for optimal performance.</li>
-    <li>Directory and file management: Organizing and securing data efficiently within the Linux filesystem.</li>
-    <li>System Configuration management: Fine-tuning system settings and parameters to meet specific requirements.</li>
-    <li>Security management: Implementing robust security measures to safeguard against threats and vulnerabilities.</li>
-  </ul>
-  <h3>Web Structure:</h3>
-  <p>My proficiency in web technologies encompasses:</p>
-  <ul>
-    <li>HTML5: Crafting semantic and structured web content for enhanced accessibility and usability.</li>
-    <li>CSS3: Styling web elements to create visually appealing and responsive layouts.</li>
-    <li>JavaScript: Adding interactivity and dynamic functionality to web applications and interfaces.</li>
-    <li>Markdown: Writing clean and readable documentation using Markdown syntax.</li>
-  </ul>
-  <h3>Other:</h3>
-  <p>In addition to Linux and web technologies, I also specialize in:</p>
-  <ul>
-    <li>Bash: Writing scripts and automating tasks to streamline workflows and enhance productivity.</li>
-    <li>Putty: Leveraging SSH client management for secure remote access and administration.</li>
-  </ul>
-  <h3>Projects:</h3>
-  <p>Featured projects being worked on, review the most relevant projects in its history.:</p>
-  <ul>
-    <li>[LinuxCommands](https://github.com/Theritex/LinuxCommands): LinuxCommands is a repository where all the knowledge acquired by Nisamov is stored, made public, allowing the reader to learn and understand the operation of the commands, as well as their additional options, it complements [LinuxGuide](https://github.com/Theritex/LinuxGuide) in some aspects.</li>
-    <li>[LinuxGuide](https://github.com/Theritex/LinuxGuide): LinuxGuide is a repository created to help in the creation of services, it has constant updates and a high description of the processes, this repository aims to help, serve as a guide or support to all those computer technicians who have doubts about the process of use or installation, it complements [LinuxCommands](https://github.com/Theritex/LinuxCommands) in some aspects.</li>
-  </ul>
-</div>
+## Related Activities
+
+### Linux:
+
+My expertise in Linux extends across various domains:
+
+- User & Groups management: Ensuring secure access and permissions for users and groups.
+- Server Services: Configuring and managing essential server services for optimal performance.
+- Directory and file management: Organizing and securing data efficiently within the Linux filesystem.
+- System Configuration management: Fine-tuning system settings and parameters to meet specific requirements.
+- Security management: Implementing robust security measures to safeguard against threats and vulnerabilities.
+
+### Web Structure:
+
+My proficiency in web technologies encompasses:
+
+- HTML5: Crafting semantic and structured web content for enhanced accessibility and usability.
+- CSS3: Styling web elements to create visually appealing and responsive layouts.
+- JavaScript: Adding interactivity and dynamic functionality to web applications and interfaces.
+- Markdown: Writing clean and readable documentation using Markdown syntax.
+
+### Other:
+
+In addition to Linux and web technologies, I also specialize in:
+
+- Bash: Writing scripts and automating tasks to streamline workflows and enhance productivity.
+- Putty: Leveraging SSH client management for secure remote access and administration.
+
+### Projects:
+
+Featured projects being worked on, review the most relevant projects in its history.:
+
+- [LinuxCommands](https://github.com/Theritex/LinuxCommands): LinuxCommands is a repository where all the knowledge acquired by Nisamov is stored, made public, allowing the reader to learn and understand the operation of the commands, as well as their additional options, it complements [LinuxGuide](https://github.com/Theritex/LinuxGuide) in some aspects.
+- [LinuxGuide](https://github.com/Theritex/LinuxGuide): LinuxGuide is a repository created to help in the creation of services, it has constant updates and a high description of the processes, this repository aims to help, serve as a guide or support to all those computer technicians who have doubts about the process of use or installation, it complements [LinuxCommands](https://github.com/Theritex/LinuxCommands) in some aspects.
+
 
 ---
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
