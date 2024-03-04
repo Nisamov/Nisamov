@@ -11,8 +11,10 @@ My journey in the realm of technology has been an exciting one. From delving int
 
 Feel free to explore my projects, contributions, and repositories. Let's connect and collaborate to create something amazing!
 
-## About Me
-
+<details open>
+<summary>• About Me |</summary>
+<br>
+<h1>About Me:</h1>
 As a dedicated professional, I thrive on challenges and constantly seek to expand my horizons. Here are some key areas where I excel:
 
 - **Linux Administration:** With hands-on experience in managing Linux servers, I've mastered user and permissions management, security protocols, and system configuration.
@@ -20,8 +22,11 @@ As a dedicated professional, I thrive on challenges and constantly seek to expan
 - **Scripting and Automation:** I'm proficient in Bash scripting, which allows me to automate routine tasks and streamline operations efficiently.
 - **Networking:** I possess a strong understanding of network fundamentals and protocols, enabling me to troubleshoot and optimize network infrastructures.
 - **Windows Server Management:** I have also studied the management and usage of Windows Server, including domain control and management configurations.
+</details>
 
-## Related Activities
+<details open>
+<summary>• Related Activities | Linux, Web Structure, Other.</summary>
+<h1>Related Activities:</h1>
 
 ### Linux:
 
@@ -48,14 +53,20 @@ In addition to Linux and web technologies, I also specialize in:
 
 - Bash: Writing scripts and automating tasks to streamline workflows and enhance productivity.
 - Putty: Leveraging SSH client management for secure remote access and administration.
+</details>
 
-### Projects:
+<details open>
+<summary>• Projects | LinuxCommands, LinuxGuide.</summary>
+<h1>Projects:</h1>
 
 Featured projects being worked on, review the most relevant projects in its history.:
 
 - [LinuxCommands](https://github.com/Theritex/LinuxCommands): LinuxCommands is a repository where all the knowledge acquired by Nisamov is stored, made public, allowing the reader to learn and understand the operation of the commands, as well as their additional options, it complements [LinuxGuide](https://github.com/Theritex/LinuxGuide) in some aspects.
 - [LinuxGuide](https://github.com/Theritex/LinuxGuide): LinuxGuide is a repository created to help in the creation of services, it has constant updates and a high description of the processes, this repository aims to help, serve as a guide or support to all those computer technicians who have doubts about the process of use or installation, it complements [LinuxCommands](https://github.com/Theritex/LinuxCommands) in some aspects.
+</details>
 
 
+<!-- Comentado temporalmente, innecesarios detalles
 ---
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
+-->
