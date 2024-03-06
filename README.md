@@ -3,8 +3,6 @@
   <h1>Nisamov's GitHub Profile</h1>
 </div>
 
----
-
 I'm Nisamov, a passionate Network Services Technician with a focus on Linux systems and web development. I enjoy tinkering with technology and exploring new possibilities in the digital world.
 
 My journey in the realm of technology has been an exciting one. From delving into the intricacies of Linux server administration to crafting elegant web solutions, I've found my niche in the ever-evolving landscape of IT.
