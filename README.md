@@ -60,13 +60,7 @@ In addition to Linux and web technologies, I also specialize in:
 Featured projects being worked on, review the most relevant projects in its history.:
 
 - [LinuxCommands](https://github.com/Theritex/LinuxCommands): LinuxCommands is a repository where all the knowledge acquired by Nisamov is stored, made public, allowing the reader to learn and understand the operation of the commands, as well as their additional options, it complements [LinuxGuide](https://github.com/Theritex/LinuxGuide) in some aspects.
-![LinuxCommands](linuxcommands.png)
+![LinuxCommands](/profile_media/linuxcommands.png)
 - [LinuxGuide](https://github.com/Theritex/LinuxGuide): LinuxGuide is a repository created to help in the creation of services, it has constant updates and a high description of the processes, this repository aims to help, serve as a guide or support to all those computer technicians who have doubts about the process of use or installation, it complements [LinuxCommands](https://github.com/Theritex/LinuxCommands) in some aspects.
-![LinuxCommands](sublinuxguide.png)
+![LinuxCommands](/profile_media/sublinuxguide.png)
 </details>
-
-
-<!-- Comentado temporalmente, innecesarios detalles
----
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
--->
