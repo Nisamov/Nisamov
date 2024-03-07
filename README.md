@@ -64,3 +64,19 @@ Featured projects being worked on, review the most relevant projects in its hist
 - [LinuxGuide](https://github.com/Theritex/LinuxGuide): LinuxGuide is a repository created to help in the creation of services, it has constant updates and a high description of the processes, this repository aims to help, serve as a guide or support to all those computer technicians who have doubts about the process of use or installation, it complements [LinuxCommands](https://github.com/Theritex/LinuxCommands) in some aspects.
 ![LinuxCommands](/profile_media/sublinuxguide.png)
 </details>
+
+
+# Prueba Temporal
+
+<p align="center" >
+	<picture>
+	  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/Nisamov/Nisamov/output-3d-contrib/night.svg" />
+	  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nisamov/Nisamov/output-3d-contrib/day.svg" />
+	  <img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/Nisamov/Nisamov/output-3d-contrib/day.svg" />
+	</picture>
+</p>
+
+
+## Prev-Test
+
+![](./profile-3d-contrib/profile-green-animate.svg)
