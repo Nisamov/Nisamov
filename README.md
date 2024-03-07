@@ -50,6 +50,8 @@ My proficiency in web technologies encompasses:
 In addition to Linux and web technologies, I also specialize in:
 
 - Bash: Writing scripts and automating tasks to streamline workflows and enhance productivity.
+![BASH_Login_Model_Test](/profile_media/NisamovProfile_Bash.png)
+
 - Putty: Leveraging SSH client management for secure remote access and administration.
 </details>
 
