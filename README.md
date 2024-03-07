@@ -61,9 +61,7 @@ In addition to Linux and web technologies, I also specialize in:
 Featured projects being worked on, review the most relevant projects in its history.:
 
 - [LinuxCommands](https://github.com/Theritex/LinuxCommands): LinuxCommands is a repository where all the knowledge acquired by Nisamov is stored, made public, allowing the reader to learn and understand the operation of the commands, as well as their additional options, it complements [LinuxGuide](https://github.com/Theritex/LinuxGuide) in some aspects.
-![LinuxCommands](/profile_media/linuxcommands.png)
 - [LinuxGuide](https://github.com/Theritex/LinuxGuide): LinuxGuide is a repository created to help in the creation of services, it has constant updates and a high description of the processes, this repository aims to help, serve as a guide or support to all those computer technicians who have doubts about the process of use or installation, it complements [LinuxCommands](https://github.com/Theritex/LinuxCommands) in some aspects.
-![LinuxGuide](/profile_media/sublinuxguide.png)
 - [AutoNetplan](https://github.com/Nisamov/auto-netplan): Autonetplan is a public repository that helps people automate their network configuration, offering them several configuration possibilities, offering service to all GNU/Linux devices.
-![LinuxCommands](/profile_media/autonetplanimp.png)
+
 </details>
