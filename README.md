@@ -1,4 +1,8 @@
 <!--Perfil GitHub Nisamov - Todos los derechos reservados-->
+
+<!--Prueba de estilos-->
+<link rel="stylesheet" type="text/css" href="https://github.com/Nisamov/Nisamov/blob/main/style.css">
+
 <div align="center">
   <h1>Nisamov's GitHub Profile</h1>
 </div>
@@ -54,7 +58,7 @@ In addition to Linux and web technologies, I also specialize in:
 </details>
 
 <details open>
-<summary>• Projects | LinuxCommands, LinuxGuide.</summary>
+<summary>• Projects | LinuxCommands, LinuxGuide, AutoNetplan...</summary>
 <h1>Projects:</h1>
 
 Featured projects being worked on, review the most relevant projects in its history.:
