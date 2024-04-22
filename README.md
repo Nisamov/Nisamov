@@ -1,8 +1,5 @@
 <!--Perfil GitHub Nisamov - Todos los derechos reservados-->
 
-<!--Prueba de estilos-->
-<link rel="stylesheet" type="text/css" href="https://github.com/Nisamov/Nisamov/blob/main/style.css">
-
 <div align="center">
   <h1>Nisamov's GitHub Profile</h1>
 </div>
