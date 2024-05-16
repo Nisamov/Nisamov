@@ -10,7 +10,7 @@ My journey in the realm of technology has been an exciting one. From delving int
 Feel free to explore my projects, contributions, and repositories. Let's connect and collaborate to create something amazing!
 
 <details open>
-<summary>• About Me |━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</summary>
+<summary>• About Me |━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</summary>
 <h1>About Me:</h1>
 As a dedicated professional, I thrive on challenges and constantly seek to expand my horizons. Here are some key areas where I excel:
 
@@ -22,7 +22,7 @@ As a dedicated professional, I thrive on challenges and constantly seek to expan
 </details>
 
 <details open>
-<summary>• Related Activities | Linux, Web Structure, Other |━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</summary>
+<summary>• Related Activities | Linux, Web Structure, Other |━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</summary>
 <h1>Related Activities:</h1>
 
 ### Linux:
@@ -54,7 +54,7 @@ In addition to Linux and web technologies, I also specialize in:
 </details>
 
 <details open>
-<summary>• Projects | LinuxCommands, LinuxGuide, AutoNetplan...|━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</summary>
+<summary>• Projects | LinuxCommands, LinuxGuide, AutoNetplan...|━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</summary>
 <h1>Projects:</h1>
 
 Featured projects being worked on, review the most relevant projects in its history.:
