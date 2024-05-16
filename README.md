@@ -11,7 +11,6 @@ Feel free to explore my projects, contributions, and repositories. Let's connect
 
 <details open>
 <summary>• About Me |</summary>
-<br>
 <h1>About Me:</h1>
 As a dedicated professional, I thrive on challenges and constantly seek to expand my horizons. Here are some key areas where I excel:
 
