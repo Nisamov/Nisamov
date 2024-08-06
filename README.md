@@ -65,21 +65,17 @@ Featured projects being worked on, review the most relevant projects in its hist
 - [AutoIface](https://github.com/Nisamov/autoiface): AutoIface is a public repository that helps people to automate the configuration of their Network service, offering them several configuration possibilities, serving both Server and Desktop Ubuntu Linux distributions.
 </details>
 
+<h1>Currently Working:</h1>
 <div align="center">
-  <h1>Currently Working:</h1>
 
-  > | Working on AutoNetplan - Fixing bugs and preparing for version 1.0.0 |
-  > |---------------------------------------|
-  > | [AutoNetplan](https://github.com/Nisamov/autonetplan) Automatic NetWork Configuration Apache 2.0 License AutoNetplan(Netplan) |
+  Working on AutoNetplan - Fixing bugs and preparing for version 1.0.0 |
+   |---------------------------------------|
+   [AutoNetplan](https://github.com/Nisamov/autonetplan) Automatic NetWork Configuration Apache 2.0 License AutoNetplan(Netplan) |
 </div>
 
+<h1>Contact With Me:</h1>
 <div align="center">
-
-  <h1>Contact With Me:</h1>
-  
   <div style="display: flex; justify-content: space-between; width: 100%;">
     <a href="mailto:aaa.001.0a0b@gmail.com" style="text-align: left; flex: 1;">Contactar con el desarrollador</a>
-    <a href="https://url2.com" style="text-align: right; flex: 1;">Enlace No Disponible</a>
   </div>
-
 </div>
