@@ -73,6 +73,13 @@ Featured projects being worked on, review the most relevant projects in its hist
    [AutoNetplan](https://github.com/Nisamov/autonetplan) Automatic NetWork Configuration Apache 2.0 License AutoNetplan(Netplan) |
 </div>
 
+<div align="center">
+
+  Working on SSP - Main file creation - Execute file |
+   |---------------------------------------|
+   [SSP](https://github.com/Nisamov/ssp) SSP Secure Service Protocol |
+</div>
+
 <h1>Contact With Me:</h1>
 <div align="center">
   <div style="display: flex; justify-content: space-between; width: 100%;">
