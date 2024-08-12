@@ -68,14 +68,11 @@ Featured projects being worked on, review the most relevant projects in its hist
 <h1>Currently Working:</h1>
 <div align="center">
 
-  Working on AutoNetplan - Fixing bugs and preparing for version 1.0.0 |
+  Working on AutoNetplan - Fixing bugs and preparing for Version 1.0.0 |
    |---------------------------------------|
    [AutoNetplan](https://github.com/Nisamov/autonetplan) Automatic NetWork Configuration Apache 2.0 License AutoNetplan(Netplan) |
-</div>
-
-<div align="center">
-
-  Working on SSP - Main file creation - Execute file |
+  
+  Working on SSP - Creating Security System Protocol - Version 0.0.1 |
    |---------------------------------------|
    [SSP](https://github.com/Nisamov/ssp) SSP Secure Service Protocol |
 </div>
