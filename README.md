@@ -55,7 +55,7 @@ In addition to Linux and web technologies, I also specialize in:
 
 <details open>
 <summary>• Projects | LinuxCommands, LinuxGuide, AutoNetplan...|━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</summary>
-<h1>Projects:</h1>
+<h2>Relevant Projects:</h2>
 
 Featured projects being worked on, review the most relevant projects in its history.:
 
@@ -65,17 +65,31 @@ Featured projects being worked on, review the most relevant projects in its hist
 - [SSP](https://github.com/Nisamov/ssp): SSP (Secure Service Protocol) is a system that allows you to control the services that run on the system, this software being a means of extra security in terms of protecting a computer from actions carried out by unknown services that can violate our system.
 </details>
 
-<h1>Currently Working:</h1>
-<div align="center">
-  
-| Task Description | Version | Link | Description |
-|------------------|---------|------|-------------|
-| Working on SSP - Creating Security System Protocol | 0.0.1 | **[SSP](https://github.com/Nisamov/ssp)** | The SSP project aims to create a secure protocol that allows manual permission of services on your system. It blocks any unauthorized service from executing, enhancing security by preventing potential viruses and unwanted background services. The system monitors running processes and blocks any new, unauthorized services. It offers advanced users a powerful tool to increase system security. |
+
+<h2>Currently Working:</h2>
+<div align="center" style="margin-top: 40px;">
+  <table style="width: 80%; border-collapse: collapse; text-align: left;">
+    <thead>
+      <tr>
+        <th style="border: 2px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Task Description</th>
+        <th style="border: 2px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Version</th>
+        <th style="border: 2px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Link</th>
+        <th style="border: 2px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 2px solid #ddd; padding: 8px;">Working on SSP - Creating Security System Protocol</td>
+        <td style="border: 2px solid #ddd; padding: 8px;">0.0.1</td>
+        <td style="border: 2px solid #ddd; padding: 8px;"><a href="https://github.com/Nisamov/ssp"><strong>SSP</strong></a></td>
+        <td style="border: 2px solid #ddd; padding: 8px;">The SSP project aims to create a secure protocol that allows manual permission of services on your system. It blocks any unauthorized service from executing, enhancing security by preventing potential viruses and unwanted background services. The system monitors running processes and blocks any new, unauthorized services. It offers advanced users a powerful tool to increase system security.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
-<h1>Contact With Me:</h1>
-<div align="center">
-  <div style="display: flex; justify-content: space-between; width: 100%;">
-    <a href="mailto:aaa.001.0a0b@gmail.com" style="text-align: left; flex: 1;">Contact the Developer</a>
-  </div>
+
+<h2 style="text-align: center; margin-top: 40px;">Contact With Me:</h2>
+<div align="center" style="margin-top: 10px;">
+  <a href="mailto:aaa.001.0a0b@gmail.com" style="text-align: center; font-size: 1.3em;">📧 | Contact the Developer</a>
 </div>
