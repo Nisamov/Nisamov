@@ -71,13 +71,11 @@ Featured projects being worked on, review the most relevant projects in its hist
 | Task Description | Version | Link | Description |
 |------------------|---------|------|-------------|
 | Working on SSP - Creating Security System Protocol | 0.0.1 | **[SSP](https://github.com/Nisamov/ssp)** | The SSP project aims to create a secure protocol that allows manual permission of services on your system. It blocks any unauthorized service from executing, enhancing security by preventing potential viruses and unwanted background services. The system monitors running processes and blocks any new, unauthorized services. It offers advanced users a powerful tool to increase system security. |
-
-
 </div>
 
 <h1>Contact With Me:</h1>
 <div align="center">
   <div style="display: flex; justify-content: space-between; width: 100%;">
-    <a href="mailto:aaa.001.0a0b@gmail.com" style="text-align: left; flex: 1;">Contactar con el desarrollador</a>
+    <a href="mailto:aaa.001.0a0b@gmail.com" style="text-align: left; flex: 1;">Contact the Developer</a>
   </div>
 </div>
