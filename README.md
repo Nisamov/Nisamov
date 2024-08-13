@@ -70,7 +70,7 @@ Featured projects being worked on, review the most relevant projects in its hist
   
 | Task Description | Version | Link | Description |
 |------------------|---------|------|-------------|
-| Working on SSP - Creating Security System Protocol | 0.0.1 | [SSP Secure Service Protocol](https://github.com/Nisamov/ssp) | The SSP project aims to create a secure protocol that allows manual permission of services on your system. It blocks any unauthorized service from executing, enhancing security by preventing potential viruses and unwanted background services. The system monitors running processes and blocks any new, unauthorized services. Implemented in Bash, C, and Python, it offers advanced users a powerful tool to increase system security. |
+| Working on SSP - Creating Security System Protocol | 0.0.1 | **[SSP](https://github.com/Nisamov/ssp)** | The SSP project aims to create a secure protocol that allows manual permission of services on your system. It blocks any unauthorized service from executing, enhancing security by preventing potential viruses and unwanted background services. The system monitors running processes and blocks any new, unauthorized services. It offers advanced users a powerful tool to increase system security. |
 
 
 </div>
