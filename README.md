@@ -59,14 +59,12 @@ In addition to Linux and web technologies, I also specialize in:
 
 Featured projects being worked on, review the most relevant projects in its history.:
 
-- [LinuxCommands](https://github.com/Theritex/LinuxCommands): LinuxCommands is a repository where all the knowledge acquired by Nisamov is stored, made public, allowing the reader to learn and understand the operation of the commands, as well as their additional options, it complements [LinuxGuide](https://github.com/Theritex/LinuxGuide) in some aspects.
-- [LinuxGuide](https://github.com/Theritex/LinuxGuide): LinuxGuide is a repository created to help in the creation of services, it has constant updates and a high description of the processes, this repository aims to help, serve as a guide or support to all those computer technicians who have doubts about the process of use or installation, it complements [LinuxCommands](https://github.com/Theritex/LinuxCommands) in some aspects.
-- [AutoNetplan](https://github.com/Nisamov/autonetplan): AutoNetplan is a public repository that helps people to automate the configuration of their Netplan service, offering them several configuration possibilities, serving both Server and Desktop Ubuntu Linux distributions.
 - [SSP](https://github.com/Nisamov/ssp): SSP (Secure Service Protocol) is a system that allows you to control the services that run on the system, this software being a means of extra security in terms of protecting a computer from actions carried out by unknown services that can violate our system.
 </details>
+- [NOTE!]: Any other project has been ignored, only the ones of being considered good projects, have the right to stay in the profile. - Nisamov
 
-
-<h2>Currently Working:</h2>
+<h2>Currently Studying Golang and Vue</h2>
+<!--<h2>Currently Working:</h2>
 <div align="center" style="margin-top: 40px;">
   <table style="width: 80%; border-collapse: collapse; text-align: left;">
     <thead>
@@ -86,7 +84,7 @@ Featured projects being worked on, review the most relevant projects in its hist
       </tr>
     </tbody>
   </table>
-</div>
+</div>-->
 
 
 <h2 style="text-align: center; margin-top: 40px;">Contact With Me:</h2>
