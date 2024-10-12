@@ -63,7 +63,7 @@ Featured projects being worked on, review the most relevant projects in its hist
 </details>
 - [NOTE!]: Any other project has been ignored, only the ones of being considered good projects, have the right to stay in the profile. - Nisamov
 
-<h2>Currently Studying Golang and Vue</h2>
+<h2>Currently Studying Ansible</h2>
 <!--<h2>Currently Working:</h2>
 <div align="center" style="margin-top: 40px;">
   <table style="width: 80%; border-collapse: collapse; text-align: left;">
