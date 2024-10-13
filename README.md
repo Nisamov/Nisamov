@@ -48,9 +48,14 @@ My proficiency in web technologies encompasses:
 
 In addition to Linux and web technologies, I also specialize in:
 
-- Bash: Writing scripts and automating tasks to streamline workflows and enhance productivity.
+- **Bash**: Writing scripts and automating tasks to streamline workflows and enhance productivity. Proficient in using Bash to handle file manipulations, system monitoring, and custom automation tasks, reducing manual effort and increasing efficiency.
 
-- Putty: Leveraging SSH client management for secure remote access and administration.
+- **Golang**: Learning to build lightweight and efficient applications with Golang. Focusing on understanding basic syntax, data structures, and creating small tools and scripts to solve practical problems.
+
+- **Ansible**: Automating infrastructure management, system provisioning, and application deployment. Writing playbooks for configuration management, orchestrating multi-server environments, and improving infrastructure efficiency with code-based automation.
+
+- **Putty**: Leveraging SSH client management for secure remote access and administration. Skilled in managing remote Linux and Windows systems through SSH, running commands, troubleshooting, and configuring servers securely via terminal sessions.
+
 </details>
 
 <details open>
@@ -63,7 +68,6 @@ Featured projects being worked on, review the most relevant projects in its hist
 </details>
 - [NOTE!]: Any other project has been ignored, only the ones of being considered good projects, have the right to stay in the profile. - Nisamov
 
-<h2>Currently Studying Ansible</h2>
 <!--<h2>Currently Working:</h2>
 <div align="center" style="margin-top: 40px;">
   <table style="width: 80%; border-collapse: collapse; text-align: left;">
@@ -86,8 +90,18 @@ Featured projects being worked on, review the most relevant projects in its hist
   </table>
 </div>-->
 
-
-<h2 style="text-align: center; margin-top: 40px;">Contact With Me:</h2>
-<div align="center" style="margin-top: 10px;">
-  <a href="mailto:aaa.001.0a0b@gmail.com" style="text-align: center; font-size: 1.3em;">📧 | Contact the Developer</a>
-</div>
+<table style="width: 80%; border-collapse: collapse; text-align: left;">
+    <thead>
+        <tr>
+            <td style="border: 2px solid #ddd; padding: 8px;">Contact With Me:</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 2px solid #ddd; padding: 8px; text-align: center;">
+                <!-- Deshabilitado -->
+                <a href="mailto:aaa.001.0a0b@gmail.com" style="text-decoration: none; color: grey; background-color: #f1f1f1; padding: 10px 20px; border-radius: 5px; font-size: 1.3em; display: inline-block; pointer-events: none;"> 📧 | Contact the Developer</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
