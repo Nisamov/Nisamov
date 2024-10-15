@@ -1,0 +1,38 @@
+name: Metrics
+on:
+  schedule: [{cron: "0 * * * *"}]
+  workflow_dispatch:
+  push: {branches: ["master", "main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v2
+      
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Nisamov
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Europe/Madrid
+          plugin_lines: yes
+          plugin_lines_history_limit: 1
+          plugin_lines_repositories_limit: 4
+          plugin_lines_sections: base
+          plugin_repositories: yes
+          plugin_repositories_order: featured, pinned, starred, random
+          plugin_repositories_pinned: 4
+          plugin_repositories_starred: 0
+          repositories_forks: yes
+
+      # Actualiza el README.md
+      - name: Commit and push README.md
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Update README with GitHub metrics"
+          git push
