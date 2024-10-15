@@ -38,6 +38,18 @@ jobs:
         run: |
           git pull origin main
 
+      # Determinar si la hora actual es par o impar y copiar el fichero correspondiente
+      - name: Copy the appropriate markdown file to README.md
+        run: |
+          current_hour=$(date +'%H')  # Obtener la hora actual
+          if [ $((current_hour % 2)) -eq 0 ]; then
+            # Hora par, copiar fichero1.md
+            cp fichero1.md README.md
+          else
+            # Hora impar, copiar fichero2.md
+            cp fichero2.md README.md
+          fi
+
       # Forzar commit y push README.md, incluso si no hay cambios
       - name: Force commit and push README.md
         run: |
