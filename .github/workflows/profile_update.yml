@@ -1,30 +1,24 @@
 name: Metrics
-
 on:
-  schedule: [{cron: "0 * * * *"}]  # Ejecuta el workflow cada hora
-  workflow_dispatch:  # Permite ejecutar el workflow manualmente desde GitHub
+  schedule: [{cron: "0 * * * *"}]  # Se ejecuta cada hora
+  workflow_dispatch:               # Permite ejecución manual
   push: 
     branches: 
       - master
-      - main  # Ejecuta el workflow al hacer push en las ramas "main" o "master"
-
+      - main
 jobs:
   github-metrics:
-    runs-on: ubuntu-latest  # Ejecuta el job en un runner de Ubuntu
-
+    runs-on: ubuntu-latest
     permissions:
-      contents: write  # Permisos necesarios para escribir en el repositorio
-
+      contents: write
     steps:
-      # Paso 1: Usar la última versión de actions/checkout para asegurarnos de usar Node.js 20
       - name: Checkout repository
-        uses: actions/checkout@v4  # Actualizado a v4, que usa Node.js 20
+        uses: actions/checkout@v4  # Usa la última versión de actions/checkout
       
-      # Paso 2: Usar la acción de metrics
       - name: Gather Metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}  # Token que debe estar configurado en los Secrets del repositorio
+          token: ${{ secrets.METRICS_TOKEN }}
           user: Nisamov
           template: classic
           base: header, activity, community, repositories, metadata
@@ -39,11 +33,11 @@ jobs:
           plugin_repositories_starred: 0
           repositories_forks: yes
 
-      # Paso 3: Configurar y hacer commit de los cambios en el README.md
-      - name: Commit and push updated README.md
+      # Realiza el commit incluso si no hay cambios (commit vacío)
+      - name: Commit and push README.md
         run: |
           git config --local user.email "aaa.002.0a0b@gmail.com"
           git config --local user.name "Nisamov"
           git add README.md
-          git commit -m "Actualización automática de estadísticas"
+          git commit --allow-empty -m "Actualización automática de estadísticas"
           git push
