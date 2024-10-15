@@ -1,6 +1,6 @@
 name: Metrics
 on:
-  schedule: [{cron: "0 * * * *"}]  # Se ejecuta cada hora
+  schedule: [{cron: "0 * * * *"}]  # Ejecuta el workflow cada hora
   workflow_dispatch:               # Permite ejecución manual
   push: 
     branches: 
@@ -33,11 +33,11 @@ jobs:
           plugin_repositories_starred: 0
           repositories_forks: yes
 
-      # Realiza el commit incluso si no hay cambios (commit vacío)
-      - name: Commit and push README.md
+      # Forzar el commit incluso si no hay cambios
+      - name: Force commit and push README.md
         run: |
           git config --local user.email "aaa.002.0a0b@gmail.com"
           git config --local user.name "Nisamov"
-          git add README.md
+          git add README.md || echo "No changes to commit"
           git commit --allow-empty -m "Actualización automática de estadísticas"
           git push
