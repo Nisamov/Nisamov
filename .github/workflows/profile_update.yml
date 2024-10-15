@@ -31,8 +31,8 @@ jobs:
       # Actualiza el README.md
       - name: Commit and push README.md
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "aaa.002.0a0b@gmail.com"
+          git config --local user.name "Nisamov"
           git add README.md
-          git commit -m "Update README with GitHub metrics"
+          git commit -m "Actualizacion Automatica Stats"
           git push
