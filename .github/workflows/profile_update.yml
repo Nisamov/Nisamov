@@ -1,7 +1,8 @@
 name: Metrics
 on:
-  schedule: [{cron: "0 * * * *"}]  # Ejecuta el workflow cada hora
-  workflow_dispatch:               # Permite ejecución manual
+  schedule: 
+    - cron: "0 */2 * * *"  # Ejecuta el workflow cada dos horas en la hora en punto
+  workflow_dispatch:  # Permite ejecución manual
   push: 
     branches: 
       - master
@@ -33,24 +34,19 @@ jobs:
           plugin_repositories_starred: 0
           repositories_forks: yes
 
-      # Actualizar el repositorio local antes de hacer commit
       - name: Pull the latest changes from the remote repository
         run: |
           git pull origin main
 
-      # Determinar si la hora actual es par o impar y copiar el fichero correspondiente
       - name: Copy the appropriate markdown file to README.md
         run: |
           current_hour=$(date +'%H')  # Obtener la hora actual
           if [ $((current_hour % 2)) -eq 0 ]; then
-            # Hora par, copiar fichero1.md
             cp fichero1.md README.md
           else
-            # Hora impar, copiar fichero2.md
             cp fichero2.md README.md
           fi
 
-      # Forzar commit y push README.md, incluso si no hay cambios
       - name: Force commit and push README.md
         run: |
           git config --local user.email "aaa.002.0a0b@gmail.com"
