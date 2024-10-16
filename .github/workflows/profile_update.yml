@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: '0 0 * * *'  # Cada día a la medianoche
     - cron: '0 12 * * *'  # Cada día al mediodía
+  workflow_dispatch:
 
 jobs:
   update_readme:
