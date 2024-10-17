@@ -39,6 +39,9 @@ jobs:
             sed -i "s/<número de commits>/${{ steps.commit_summary.outputs.commits }}/" README.md
           fi
 
+      - name: Eliminar archivo temporal
+        run: rm advice.txt
+
       - name: Commit y push del README actualizado
         env:
           GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
@@ -46,5 +49,5 @@ jobs:
           git config --local user.name "Nisamov"
           git config --local user.email "aaa.002.0a0b@gmail.com"
           git add README.md || echo "No changes to commit"
-          git commit -m "Actualizar README.md" || echo "No hay cambios para confirmar"
-          git push origin main
+          git commit -m "Actualizar README.md con consejo diario" || echo "No hay cambios para confirmar"
+          git push https://x-access-token:${GH_TOKEN}@github.com/Nisamov/Nisamov.git || echo "Push failed"
