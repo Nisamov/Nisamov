@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4  # Usa la última versión de actions/checkout
-      
+
       - name: Gather Metrics
         uses: lowlighter/metrics@latest
         with:
@@ -38,6 +38,24 @@ jobs:
       - name: Pull the latest changes from the remote repository
         run: |
           git pull origin main
+
+      - name: Select random advice and insert it into fichero1.md
+        run: |
+          # Seleccionar una frase aleatoria desde listaconsejos.md
+          consejo=$(shuf -n 1 listaconsejos.md)
+          echo "Consejo seleccionado: $consejo"  # Para depurar
+
+          # Verificar si el consejo fue seleccionado correctamente
+          if [ -z "$consejo" ]; then
+            echo "Error: No se seleccionó un consejo."
+            exit 1
+          fi
+
+          # Insertar la frase justo después del marcador en fichero1.md
+          sed -i '/<!-- RANDOM_ADVICE -->/a '"$consejo"'' fichero1.md
+
+          # Verificar si el consejo fue insertado correctamente en fichero1.md
+          cat fichero1.md  # Para depurar
 
       - name: Copy the appropriate markdown file to README.md based on time
         run: |
