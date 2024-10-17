@@ -50,7 +50,6 @@ jobs:
       - name: Copy the appropriate markdown file to README.md
         run: |
           current_hour=$(date +'%H')  # Obtener la hora actual
-          current_hour=$(printf "%02d" $current_hour)  # Asegura que siempre tenga 2 dígitos
           if [ $((current_hour % 2)) -eq 0 ]; then
             cp fichero1.md README.md
           else
