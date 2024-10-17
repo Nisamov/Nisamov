@@ -39,34 +39,24 @@ jobs:
         run: |
           git pull origin main
 
-      - name: Select random advice and insert it into fichero1.md
+      - name: Copy the appropriate markdown file to README.md based on time
         run: |
-          # Seleccionar una frase aleatoria desde listaconsejos.md
-          consejo=$(shuf -n 1 listaconsejos.md)
-          
-          # Insertar la frase justo después del marcador en fichero1.md
-          sed -i '/<!-- RANDOM_ADVICE -->/a '"$consejo"'' fichero1.md
+          current_hour=$(date +'%H')  # Obtener la hora actual en formato de 24 horas (0-23)
+          # Convertir la hora a la zona horaria de Madrid
+          current_hour_madrid=$(TZ="Europe/Madrid" date +'%H')
 
-      - name: Copy the appropriate markdown file to README.md
-        run: |
-          current_hour=$(date +'%H')  # Obtener la hora actual
-          if [ "$current_hour" -ge 10 ]; then
-            # Aseguramos que la hora está bien formateada
-            if [ $((current_hour % 2)) -eq 0 ]; then
-              cp fichero1.md README.md
-            else
-              cp fichero2.md README.md
-            fi
+          if [ "$current_hour_madrid" -ge 0 ] && [ "$current_hour_madrid" -lt 12 ]; then
+            # Si es entre las 00:00 y las 12:00, copiamos fichero1.md
+            cp fichero1.md README.md
           else
-            echo "Hora en formato de 24h: $current_hour"
+            # Si es entre las 12:00 y las 24:00, copiamos fichero2.md
+            cp fichero2.md README.md
           fi
-        
-        
 
       - name: Force commit and push README.md
         run: |
           git config --local user.email "aaa.002.0a0b@gmail.com"
           git config --local user.name "Nisamov"
-          git add README.md || echo "No changes to commit"
-          git commit --allow-empty -m "Actualización automática de contenido"
+          git add README.md || echo "No changes to commit"  # Si no hay cambios, se muestra el mensaje
+          git commit --allow-empty -m "Actualización automática de contenido"  # Asegura que siempre se hace commit
           git push origin main
