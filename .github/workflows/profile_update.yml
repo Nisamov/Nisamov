@@ -40,6 +40,8 @@ jobs:
           fi
 
       - name: Commit y push del README actualizado
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
         run: |
           git config --local user.name "Nisamov"
           git config --local user.email "aaa.002.0a0b@gmail.com"
