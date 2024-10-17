@@ -42,6 +42,13 @@ jobs:
       - name: Eliminar archivo temporal
         run: rm advice.txt
 
+      - name: Revisar si hay cambios
+        run: |
+          git diff --exit-code || echo "Hay cambios en el archivo"
+          git add README.md
+          git commit -m "Actualizar README.md con consejo diario" || echo "No hay cambios para confirmar"
+          git push https://x-access-token:${{ secrets.METRICS_TOKEN }}@github.com/Nisamov/Nisamov.git || echo "Push failed"
+
       - name: Commit y push del README actualizado
         env:
           GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
@@ -50,4 +57,5 @@ jobs:
           git config --local user.email "aaa.002.0a0b@gmail.com"
           git add README.md || echo "No changes to commit"
           git commit -m "Actualizar README.md con consejo diario" || echo "No hay cambios para confirmar"
-          git push https://x-access-token:${GH_TOKEN}@github.com/Nisamov/Nisamov.git || echo "Push failed"
+          git push https://x-access-token:${{ secrets.METRICS_TOKEN }}@github.com/${{ github.repository }}.git || echo "Push failed"
+
