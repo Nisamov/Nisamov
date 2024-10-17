@@ -1,0 +1,20 @@
+- **Usa `man` y `--help` para conocer los comandos y sus opciones.**
+- **Mantén tu sistema actualizado para evitar vulnerabilidades de seguridad.**
+- **Configura `ufw` o `iptables` para proteger tu sistema con un firewall.**
+- **Automatiza las tareas repetitivas con `cron` para programar scripts.**
+- **Usa `journalctl` para revisar logs del sistema y solucionar problemas.**
+- **Para proteger tu sistema, configura usuarios con permisos mínimos utilizando `sudo` y no `root`.**
+- **Realiza backups regulares y almacénalos en una ubicación segura.**
+- **El comando `htop` te permite monitorear el uso de recursos del sistema en tiempo real.**
+- **Habilita la autenticación de dos factores (2FA) en servicios críticos.**
+- **Usa enlaces simbólicos (`ln -s`) para mantener la organización de archivos en diferentes directorios.**
+- **Para instalar software, usa los gestores de paquetes nativos como `apt`, `yum`, o `dnf` para evitar problemas de dependencias.**
+- **Mantén el uso de recursos al mínimo con herramientas como `nice` y `renice` para priorizar tareas.**
+- **Usa `rsync` para sincronizar archivos entre sistemas de forma eficiente.**
+- **Verifica el estado de los servicios con `systemctl status` y administra su funcionamiento.**
+- **Evita modificar archivos de configuración importantes sin hacer un respaldo previo.**
+- **Monitorea el espacio en disco con `df` y `du` para evitar que tu sistema se quede sin espacio.**
+- **Usa `tar` para comprimir y descomprimir archivos y directorios en la terminal.**
+- **Instala solo los paquetes necesarios para reducir la superficie de ataque.**
+- **Configura un servidor de NTP para mantener la hora correcta en tu sistema.**
+- **Utiliza `find` para buscar archivos o directorios en tu sistema por nombre, fecha o tamaño.**

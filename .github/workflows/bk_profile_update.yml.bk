@@ -39,14 +39,6 @@ jobs:
         run: |
           git pull origin main
 
-      - name: Select random advice and insert it into fichero1.md
-        run: |
-          # Seleccionar una frase aleatoria desde listaconsejos.md
-          consejo=$(shuf -n 1 listaconsejos.md)
-          
-          # Insertar la frase justo después del marcador en fichero1.md
-          sed -i '/<!-- RANDOM_ADVICE -->/a '"$consejo"'' fichero1.md
-
       - name: Copy the appropriate markdown file to README.md
         run: |
           current_hour=$(date +'%H')  # Obtener la hora actual
