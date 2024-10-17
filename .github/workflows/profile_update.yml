@@ -15,19 +15,17 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Obtener consejo del archivo
-        id: get_advice
         run: |
           shuf -n 1 consejos.md > advice.txt
-          echo "::set-output name=advice::$(<advice.txt)"
+          echo "advice=$(<advice.txt)" >> $GITHUB_ENV
 
       - name: Resumen de Commits
-        id: commit_summary
         run: |
           today=$(date +%Y-%m-%d)
           commits=$(git log --since="$today 00:00:00" --until="$today 23:59:59" --oneline | wc -l)
           lines_updated=$(git log --since="$today 00:00:00" --until="$today 23:59:59" --numstat | awk '{ total += $1 + $2 } END { print total }')
-          echo "::set-output name=commits::$commits"
-          echo "::set-output name=lines_updated::$lines_updated"
+          echo "commits=$commits" >> $GITHUB_ENV
+          echo "lines_updated=$lines_updated" >> $GITHUB_ENV
 
       - name: Actualizar README
         run: |
@@ -35,27 +33,19 @@ jobs:
           if [ "$current_time" -eq "00" ]; then
             sed -i "/<!--Cita del Día-->/r advice.txt" README.md
           elif [ "$current_time" -eq "12" ]; then
-            sed -i "s/<número de líneas actualizadas>/${{ steps.commit_summary.outputs.lines_updated }}/" README.md
-            sed -i "s/<número de commits>/${{ steps.commit_summary.outputs.commits }}/" README.md
+            sed -i "s/<número de líneas actualizadas>/${{ env.lines_updated }}/" README.md
+            sed -i "s/<número de commits>/${{ env.commits }}/" README.md
           fi
 
       - name: Eliminar archivo temporal
         run: rm advice.txt
 
-      - name: Revisar si hay cambios
+      - name: Verificar y confirmar cambios
         run: |
-          git diff --exit-code || echo "Hay cambios en el archivo"
-          git add README.md
-          git commit -m "Actualizar README.md con consejo diario" || echo "No hay cambios para confirmar"
-          git push https://x-access-token:${{ secrets.METRICS_TOKEN }}@github.com/Nisamov/Nisamov.git || echo "Push failed"
-
-      - name: Commit y push del README actualizado
-        env:
-          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
-        run: |
-          git config --local user.name "Nisamov"
-          git config --local user.email "aaa.002.0a0b@gmail.com"
-          git add README.md || echo "No changes to commit"
-          git commit -m "Actualizar README.md con consejo diario" || echo "No hay cambios para confirmar"
-          git push https://x-access-token:${{ secrets.METRICS_TOKEN }}@github.com/${{ github.repository }}.git || echo "Push failed"
-
+          if git diff --quiet; then
+            echo "No changes to commit";
+          else
+            git add README.md
+            git commit -m "Actualizar README.md con consejo diario"
+            git push https://x-access-token:${{ secrets.METRICS_TOKEN }}@github.com/${{ github.repository }}.git
+          fi
