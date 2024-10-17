@@ -21,6 +21,9 @@ As a dedicated professional, I thrive on challenges and constantly seek to expan
 - **Windows Server Management:** I have also studied the management and usage of Windows Server, including domain control and management configurations.
 </details>
 
+Número de commits: <número de commits>
+Líneas de código actualizadas: <número de líneas actualizadas>
+
 <details open>
 <summary>• Related Activities | Linux, Web Structure, Other |━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</summary>
 <h1>Related Activities:</h1>
@@ -68,27 +71,7 @@ Featured projects being worked on, review the most relevant projects in its hist
 </details>
 - [NOTE!]: Any other project has been ignored, only the ones of being considered good projects, have the right to stay in the profile. - Nisamov
 
-<!--<h2>Currently Working:</h2>
-<div align="center" style="margin-top: 40px;">
-  <table style="width: 80%; border-collapse: collapse; text-align: left;">
-    <thead>
-      <tr>
-        <th style="border: 2px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Task Description</th>
-        <th style="border: 2px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Version</th>
-        <th style="border: 2px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Link</th>
-        <th style="border: 2px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="border: 2px solid #ddd; padding: 8px;">Working on SSP - Developing Secure System Protocol</td>
-        <td style="border: 2px solid #ddd; padding: 8px;"><a href="https://github.com/Nisamov/ssp/releases/tag/v1.2.0">1.2.0</a></td>
-        <td style="border: 2px solid #ddd; padding: 8px;"><a href="https://github.com/Nisamov/ssp"><strong>SSP</strong></a></td>
-        <td style="border: 2px solid #ddd; padding: 8px;">The SSP project aims to create a secure protocol that allows manual permission of services on your system. It blocks any unauthorized service from executing, enhancing security by preventing potential viruses and unwanted background services. The system monitors running processes and blocks any new, unauthorized services. It offers advanced users a powerful tool to increase system security.</td>
-      </tr>
-    </tbody>
-  </table>
-</div>-->
+<!--Cita del Día-->
 
 <h2 style="text-align: center; margin-top: 40px;">Contact With Me:</h2>
 <div align="center" style="margin-top: 10px;">
