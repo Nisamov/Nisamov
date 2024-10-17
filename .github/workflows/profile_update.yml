@@ -50,11 +50,17 @@ jobs:
       - name: Copy the appropriate markdown file to README.md
         run: |
           current_hour=$(date +'%H')  # Obtener la hora actual
-          if [ $((current_hour % 2)) -eq 0 ]; then
-            cp fichero1.md README.md
+          if [ "$current_hour" -ge 10 ]; then
+            # Aseguramos que la hora está bien formateada
+            if [ $((current_hour % 2)) -eq 0 ]; then
+              cp fichero1.md README.md
+            else
+              cp fichero2.md README.md
+            fi
           else
-             fichero2.md README.md
+            echo "Hora en formato de 24h: $current_hour"
           fi
+        
         
 
       - name: Force commit and push README.md
