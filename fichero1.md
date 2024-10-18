@@ -21,7 +21,7 @@ As a dedicated professional, I thrive on challenges and constantly seek to expan
 - **Windows Server Management:** I have also studied the management and usage of Windows Server, including domain control and management configurations.
 </details>
 
-<details open>
+<details>
 <summary>• Related Activities | Linux, Web Structure, Other |━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</summary>
 <h1>Related Activities:</h1>
 
@@ -58,7 +58,7 @@ In addition to Linux and web technologies, I also specialize in:
 
 </details>
 
-<details open>
+<details>
 <summary>• Projects | LinuxCommands, LinuxGuide, AutoNetplan...|━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</summary>
 <h2>Relevant Projects:</h2>
 
@@ -66,6 +66,7 @@ Featured projects being worked on, review the most relevant projects in its hist
 
 - [SSP](https://github.com/Nisamov/ssp): SSP (Secure Service Protocol) is a system that allows you to control the services that run on the system, this software being a means of extra security in terms of protecting a computer from actions carried out by unknown services that can violate our system.
 </details>
+---
 
 <!-- RANDOM_ADVICE -->
 

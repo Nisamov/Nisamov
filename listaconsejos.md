@@ -8,7 +8,7 @@
 > <span style="color: #FF5733; font-weight: bold;">[Consejo del día]:</span> El comando `htop` te permite monitorear el uso de recursos del sistema en tiempo real.  
 > <span style="color: #FF5733; font-weight: bold;">[Consejo del día]:</span> Habilita la autenticación de dos factores (2FA) en servicios críticos.  
 > <span style="color: #FF5733; font-weight: bold;">[Consejo del día]:</span> Usa enlaces simbólicos (`ln -s`) para mantener la organización de archivos en diferentes directorios.  
-> <span style="color: #FF5733; font-weight: bold;">[Consejo del día]:</span> Usa los gestores de paquetes nativos como `apt`, `yum`, o `dnf` para evitar problemas de dependencias.
+> <span style="color: #FF5733; font-weight: bold;">[Consejo del día]:</span> Usa los gestores de paquetes nativos como `apt`, `yum`, o `dnf` para evitar problemas de dependencias.  
 > <span style="color: #FF5733; font-weight: bold;">[Consejo del día]:</span> Mantén el uso de recursos al mínimo con herramientas como `nice` y `renice` para priorizar tareas.  
 > <span style="color: #FF5733; font-weight: bold;">[Consejo del día]:</span> Usa `rsync` para sincronizar archivos entre sistemas de forma eficiente.  
 > <span style="color: #FF5733; font-weight: bold;">[Consejo del día]:</span> Verifica el estado de los servicios con `systemctl status` y administra su funcionamiento.  
