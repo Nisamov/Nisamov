@@ -68,7 +68,7 @@ Featured projects being worked on, review the most relevant projects in its hist
 </details>
 
 <!-- RANDOM_ADVICE -->
-> **[Consejo del día]:** Realiza backups regulares y almacénalos en una ubicación segura.
+> <span style="color: #FF5733; font-weight: bold;">[Consejo del día]:</span> Usa enlaces simbólicos (`ln -s`) para mantener la organización de archivos en diferentes directorios.  
 
 <h2 style="text-align: center; margin-top: 40px;">Contact With Me:</h2>
 <div align="center" style="margin-top: 10px;">
