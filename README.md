@@ -69,7 +69,7 @@ Featured projects being worked on, review the most relevant projects in its hist
 ---
 
 <!-- RANDOM_ADVICE -->
-> <span style="color: #FF5733; font-weight: bold;">[Consejo del día]:</span> Mantén tu sistema actualizado para evitar vulnerabilidades de seguridad.  
+> <span style="color: #FF5733; font-weight: bold;">[Consejo del día]:</span> Habilita la autenticación de dos factores (2FA) en servicios críticos.  
 
 <h2 style="text-align: center; margin-top: 40px;">Contact With Me:</h2>
 <div align="center" style="margin-top: 10px;">
