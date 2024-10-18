@@ -29,7 +29,7 @@ Discover and learn from the free shared content that this Discord community fost
 - Get tools, pages and documents with which you can advance and expand your limits.
 - Sharing your knowledge will also help others learn, everyone can contribute their opinions while adhering to the server's regulations.
 
-<center><iframe src="https://discord.com/widget?id=1191099498752135299&theme=light" width="350" height="500" allowtransparency="true" frameborder="0"></iframe></center>
+<center>[DataXplore -Discord](https://discord.gg/data-xplore-learn-share-1191099498752135299)</center>
 </details>
 
 <h2 style="text-align: center; margin-top: 40px;">Contact With Me:</h2>
