@@ -16,7 +16,7 @@
 
 Se trata de mi proyecto más ambicioso, en el cual he volcado varios años de estudio, experiencia y dedicación, poniendo todo ese conocimiento a disposición del público de forma abierta y estructurada.
 
-El repositorio está íntegramente redactado en Markdown, lo que permite su exportación directa a PDF, quedando perfectamente preparado para su uso en entornos educativos, aulas formativas y como material de consulta profesional.
+El repositorio está íntegramente redactado en documentos ascii (`.adoc`), lo que permite su exportación directa a PDF, quedando perfectamente preparado para su uso en entornos educativos, aulas formativas y como material de consulta profesional.
 
 ![LinuxCommands](/media/LinuxCommands.png)
 </details>
