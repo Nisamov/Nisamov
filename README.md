@@ -1,9 +1,8 @@
 ![Imagen Titulo](/media/nsm.gif)
 
-| Repositorios Destacados | Descripción |
+| Listado | Proyecto (click para ir) |
 |-------------|-------------|
-| [Linux Commands](https://github.com/Theritex/LinuxCommands) | ![LinuxCommands](/media/sheyald.png) |
-| [Router and Switch Commands](https://github.com/Theritex/RouterSwitchCommands) | ![RouterSwitchCommands](/media/RouterSwitchCommands.png) |
-
+| [![LinuxCommands](/media/pr1.gif)](https://github.com/Nisamov/LinuxCommands) | [![LinuxCommands](/media/sheyald.png)](https://github.com/Nisamov/LinuxCommands) |
+| [![RouterSwitchCommands](/media/pr2.gif)](https://github.com/Theritex/RouterSwitchCommands) | [![RouterSwitchCommands](/media/RouterSwitchCommands.png)](https://github.com/Theritex/RouterSwitchCommands) |
 
 [![LinkedIn - Nisamov](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nisamov/)
