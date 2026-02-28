@@ -1,9 +1,5 @@
 ![Imagen Titulo](/media/nsm.gif)
 
-| Repositorios Destacados | Descripción |
-|-------------|-------------|
-| [Linux Commands](https://github.com/Theritex/LinuxCommands) | ![LinuxCommands](/media/sheyald.png) |
-| [Router and Switch Commands](https://github.com/Theritex/RouterSwitchCommands) | ![RouterSwitchCommands](/media/RouterSwitchCommands.png) |
-
-
-[![LinkedIn - Nisamov](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nisamov/)
+<!-- Centralizacion de boton acceso futuro a pag web (por aclarar)
+[![nisamov.is-a.dev](imagen)](https://nisamov.is-a.dev)
+-->
