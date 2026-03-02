@@ -1,0 +1,37 @@
+name: Update account age
+on:
+  schedule:
+    - cron: '1 0 * * *'
+  workflow_dispatch:
+jobs:
+  update-days:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PERSONAL_TOKEN }}
+      - name: Get GitHub account creation date
+        id: getdate
+        run: |
+          creation=$(curl -s -H "Authorization: token ${{ secrets.PERSONAL_TOKEN }}" \
+            https://api.github.com/users/Nisamov | jq -r .created_at)
+          echo "creation=$creation" >> $GITHUB_OUTPUT
+      - name: Calculate days since account creation
+        id: days
+        run: |
+          creation=${{ steps.getdate.outputs.creation }}
+          now=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          # compute difference in seconds and convert to days
+          days=$(( ( $(date -ud "$now" +%s) - $(date -ud "$creation" +%s) )/86400 ))
+          echo "days=$days" >> $GITHUB_OUTPUT
+      - name: Write days to for.txt
+        run: |
+          echo "${{ steps.days.outputs.days }}" > for.txt
+      - name: Commit and push updated file
+        run: |
+          git config user.name "${{ secrets.USER_NAME }}"
+          git config user.email "${{ secrets.USER_EMAIL }}"
+          git add for.txt
+          git commit -m "Update account age: ${{ steps.days.outputs.days }} days" || echo "No changes to commit"
+          git push origin HEAD
